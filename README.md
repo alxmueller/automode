@@ -2,6 +2,8 @@
 
 [iTerm2](https://iterm2.com) doesn't yet come with built-in support for automatically switching between color schemes based on macOS's appearance settings.  Fortunately, however, it has a powerful Python API that will allow you to do this programmatically.  Hence the idea for ✨**automode**✨.  This little Python script will automatically switch between two given profiles depending on your system's appearance.
 
+**UPDATE [2022-08-13]:** iTerm2 3.5 will feature built-in support for light/dark mode.  This project won't be maintained any longer.
+
 ## Installation
 
 1. Create a _\~/Library/ApplicationSupport/iTerm2/Scripts/AutoLaunch_ folder if it doesn't already exist.  If you can't find your _\~/Library_ folder that's because it's hidden by default in newer macOS versions.  In this case, go to the _Go_ menu in _Finder_ while holding down the _Option_ (⌥) key – there it is.
